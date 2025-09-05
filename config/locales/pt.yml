@@ -1,0 +1,14 @@
+pt:
+  back: "Voltar"
+  cancel: "Cancelar"
+
+  products:
+    index:
+      title: "Produtos"
+      new: "Novo Produto"
+      login: "Login"
+    new:
+      title: "Novo Produto"
+    show:
+      edit: "Editar"
+      delete: "Deletar"
