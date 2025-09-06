@@ -1,7 +1,7 @@
-<h1><%= t ".title" %></h1>
-
-<%= link_to t(".login"), new_session_path unless authenticated? %>
-<%= link_to t(".new"), new_product_path if authenticated? %>
+<div class="products-index-title">
+  <h1><%= t ".title" %></h1>
+  <%= link_to t(".new"), new_product_path if authenticated? %>
+</div>
 
 <div id="products">
   <% @products.each do |product| %>
